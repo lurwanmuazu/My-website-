@@ -1,0 +1,238 @@
+/* =========================================
+PROFESSIONAL RESEARCH WEBSITE
+========================================= */
+
+:root {
+--research-blue: #12355b;
+--research-light: #eef5fb;
+--research-accent: #1b7f8c;
+--research-dark: #17202a;
+--research-text: #3f4b56;
+}
+
+/* ---------- General ---------- */
+
+body {
+font-family: "Segoe UI", Arial, sans-serif;
+color: var(--research-text);
+line-height: 1.7;
+background: #ffffff;
+}
+
+h1,
+h2,
+h3 {
+color: var(--research-dark);
+font-weight: 700;
+}
+
+/* ---------- Navigation ---------- */
+
+.navbar {
+background: #ffffff !important;
+border-bottom: 1px solid #e6e9ed;
+padding: 12px 30px;
+}
+
+.navbar-brand {
+color: var(--research-blue) !important;
+font-weight: 700;
+font-size: 1.25rem;
+}
+
+.navbar-nav .nav-link {
+color: var(--research-dark) !important;
+font-weight: 500;
+margin-left: 12px;
+}
+
+.navbar-nav .nav-link:hover {
+color: var(--research-accent) !important;
+}
+
+/* ---------- Hero Section ---------- */
+
+.hero {
+background: linear-gradient(
+135deg,
+#eef5fb 0%,
+#ffffff 55%,
+#e7f4f3 100%
+);
+
+padding: 100px 70px;
+margin-bottom: 70px;
+border-radius: 0 0 35px 35px;
+}
+
+.hero h1 {
+font-size: 4rem;
+color: var(--research-blue);
+margin-bottom: 15px;
+}
+
+.hero h3 {
+font-size: 1.35rem;
+color: var(--research-accent);
+font-weight: 500;
+margin-bottom: 25px;
+}
+
+.hero p {
+max-width: 800px;
+font-size: 1.15rem;
+}
+
+/* ---------- Buttons ---------- */
+
+.btn-primary,
+.btn-secondary {
+display: inline-block;
+padding: 12px 24px;
+margin: 15px 8px 0 0;
+border-radius: 8px;
+text-decoration: none !important;
+font-weight: 600;
+transition: 0.25s ease;
+}
+
+.btn-primary {
+background: var(--research-blue);
+color: white !important;
+}
+
+.btn-primary:hover {
+background: var(--research-accent);
+transform: translateY(-2px);
+}
+
+.btn-secondary {
+border: 2px solid var(--research-blue);
+color: var(--research-blue) !important;
+background: white;
+}
+
+.btn-secondary:hover {
+background: var(--research-blue);
+color: white !important;
+}
+
+/* ---------- Section Headings ---------- */
+
+main h2 {
+margin-top: 60px;
+margin-bottom: 30px;
+padding-bottom: 10px;
+border-bottom: 3px solid var(--research-accent);
+}
+
+/* ---------- Research Cards ---------- */
+
+.research-card {
+background: #ffffff;
+border: 1px solid #e2e7eb;
+border-radius: 15px;
+padding: 25px;
+margin: 20px 0;
+box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+transition: 0.25s ease;
+}
+
+.research-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 12px 28px rgba(0, 0, 0, 0.10);
+}
+
+.research-card h3 {
+color: var(--research-blue);
+margin-top: 0;
+}
+
+/* ---------- Research Grid ---------- */
+
+.g-col-lg-3 {
+padding: 10px;
+}
+
+.g-col-lg-3 > div {
+height: 100%;
+background: var(--research-light);
+border-radius: 15px;
+padding: 25px;
+border: 1px solid #dce8f0;
+}
+
+.g-col-lg-3 h3 {
+color: var(--research-blue);
+margin-top: 0;
+}
+
+/* ---------- Tables ---------- */
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin: 25px 0;
+}
+
+th {
+background: var(--research-blue);
+color: white;
+padding: 14px;
+}
+
+td {
+padding: 13px;
+border-bottom: 1px solid #e3e6e8;
+}
+
+tr:hover {
+background: #f5f9fb;
+}
+
+/* ---------- Quote / Vision ---------- */
+
+blockquote {
+background: var(--research-light);
+border-left: 5px solid var(--research-accent);
+padding: 25px;
+border-radius: 8px;
+font-size: 1.15rem;
+color: var(--research-blue);
+}
+
+/* ---------- Footer ---------- */
+
+.footer-note {
+text-align: center;
+margin-top: 80px;
+padding: 30px;
+border-top: 1px solid #e1e5e8;
+color: #71808c;
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 768px) {
+
+.hero {
+padding: 60px 25px;
+}
+
+.hero h1 {
+font-size: 2.7rem;
+}
+
+.hero h3 {
+font-size: 1.1rem;
+}
+
+.navbar {
+padding: 10px 15px;
+}
+
+main {
+padding-left: 15px;
+padding-right: 15px;
+}
+}

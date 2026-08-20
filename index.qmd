@@ -1,0 +1,90 @@
+---
+title: "My Research Website"
+format:
+  html:
+    css: styles.css
+---
+
+::: {.hero}
+
+# Lurwan Mu'azu
+
+### Medical Biotechnology • Bioinformatics • Molecular Research . Microbial Biotechnoogy
+
+Welcome to my research website.
+
+<img src="images/profile.jpg" class="profile-image">
+
+[Explore My Research](research.qmd){.btn-primary}
+
+:::
+
+## Research Interests
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+
+### 🧬 Genomics
+
+Exploring genomic information to understand genes, organisms and biological processes.
+
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+
+### 💻 Bioinformatics
+
+Using computational tools to analyze and interpret biological data.
+
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+
+### 🦠 Infectious Diseases
+
+Investigating pathogens and potential molecular targets for new therapeutic strategies.
+
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+
+### 🧪 Metabolomics
+
+Studying metabolites and metabolic pathways to understand biological changes.
+
+:::
+
+:::
+
+## Featured Research
+
+::: {.research-card}
+
+### Identification of Potential New Drug Targets
+
+**using some selected Bacterias**
+
+Investigating potential molecular targets for new antimicrobial strategies.
+
+:::
+
+::: {.research-card}
+
+### Comparative Genomics
+
+**Human and Microbial Proteomes**
+
+Using comparative genomic and proteomic approaches to investigate biological targets.
+
+:::
+
+## Research Vision
+
+> Using modern biotechnology and computational approaches to contribute to innovative solutions for biomedical research.
+
+# Contact
+
+- Visit my [Google Scholar profile](https://scholar.google.com/citations?user=e2L-ZOMAAAAJ&hl=en).
+- Visit my [Researchgate profile](https://www.researchgate.net/profile/Lurwan-Muazu-2).
+- You can find my projects on [GitHub](https://github.com/).
