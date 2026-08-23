@@ -90,3 +90,4 @@ Using comparative genomic and proteomic approaches to investigate biological tar
 - You can find my projects on [GitHub](https://github.com/).
 - mail
 - phone no
+- skype
