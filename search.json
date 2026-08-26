@@ -1,10 +1,31 @@
 [
   {
+    "objectID": "styles.html",
+    "href": "styles.html",
+    "title": "my research websited",
+    "section": "",
+    "text": "/* ========================================= PROFESSIONAL RESEARCH WEBSITE ========================================= */\n:root { –research-blue: #12355b; –research-light: #eef5fb; –research-accent: #1b7f8c; –research-dark: #17202a; –research-text: #3f4b56; }\n/* ———- General ———- */\nbody { font-family: “Segoe UI”, Arial, sans-serif; color: var(–research-text); line-height: 1.7; background: #ffffff; }\nh1, h2, h3 { color: var(–research-dark); font-weight: 700; }\n/* ———- Navigation ———- */\n.navbar { background: #ffffff !important; border-bottom: 1px solid #e6e9ed; padding: 12px 30px; }\n.navbar-brand { color: var(–research-blue) !important; font-weight: 700; font-size: 1.25rem; }\n.navbar-nav .nav-link { color: var(–research-dark) !important; font-weight: 500; margin-left: 12px; }\n.navbar-nav .nav-link:hover { color: var(–research-accent) !important; }\n/* ———- Hero Section ———- */\n.hero { background: linear-gradient( 135deg, #eef5fb 0%, #ffffff 55%, #e7f4f3 100% );\npadding: 100px 70px; margin-bottom: 70px; border-radius: 0 0 35px 35px; }\n.hero h1 { font-size: 4rem; color: var(–research-blue); margin-bottom: 15px; }\n.hero h3 { font-size: 1.35rem; color: var(–research-accent); font-weight: 500; margin-bottom: 25px; }\n.hero p { max-width: 800px; font-size: 1.15rem; }\n/* ———- Buttons ———- */\n.btn-primary, .btn-secondary { display: inline-block; padding: 12px 24px; margin: 15px 8px 0 0; border-radius: 8px; text-decoration: none !important; font-weight: 600; transition: 0.25s ease; }\n.btn-primary { background: var(–research-blue); color: white !important; }\n.btn-primary:hover { background: var(–research-accent); transform: translateY(-2px); }\n.btn-secondary { border: 2px solid var(–research-blue); color: var(–research-blue) !important; background: white; }\n.btn-secondary:hover { background: var(–research-blue); color: white !important; }\n/* ———- Section Headings ———- */\nmain h2 { margin-top: 60px; margin-bottom: 30px; padding-bottom: 10px; border-bottom: 3px solid var(–research-accent); }\n/* ———- Research Cards ———- */\n.research-card { background: #ffffff; border: 1px solid #e2e7eb; border-radius: 15px; padding: 25px; margin: 20px 0; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06); transition: 0.25s ease; }\n.research-card:hover { transform: translateY(-5px); box-shadow: 0 12px 28px rgba(0, 0, 0, 0.10); }\n.research-card h3 { color: var(–research-blue); margin-top: 0; }\n/* ———- Research Grid ———- */\n.g-col-lg-3 { padding: 10px; }\n.g-col-lg-3 &gt; div { height: 100%; background: var(–research-light); border-radius: 15px; padding: 25px; border: 1px solid #dce8f0; }\n.g-col-lg-3 h3 { color: var(–research-blue); margin-top: 0; }\n/* ———- Tables ———- */\ntable { width: 100%; border-collapse: collapse; margin: 25px 0; }\nth { background: var(–research-blue); color: white; padding: 14px; }\ntd { padding: 13px; border-bottom: 1px solid #e3e6e8; }\ntr:hover { background: #f5f9fb; }\n/* ———- Quote / Vision ———- */\nblockquote { background: var(–research-light); border-left: 5px solid var(–research-accent); padding: 25px; border-radius: 8px; font-size: 1.15rem; color: var(–research-blue); }\n/* ———- Footer ———- */\n.footer-note { text-align: center; margin-top: 80px; padding: 30px; border-top: 1px solid #e1e5e8; color: #71808c; }\n/* ———- Mobile ———- */\n@media (max-width: 768px) {\n.hero { padding: 60px 25px; }\n.hero h1 { font-size: 2.7rem; }\n.hero h3 { font-size: 1.1rem; }\n.navbar { padding: 10px 15px; }\nmain { padding-left: 15px; padding-right: 15px; } }"
+  },
+  {
     "objectID": "clear/index.html",
     "href": "clear/index.html",
     "title": "clear",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "clear/about.html",
+    "href": "clear/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   },
   {
     "objectID": "index.html",
@@ -33,26 +54,5 @@
     "title": "My Research Website",
     "section": "Research Vision",
     "text": "Research Vision\n\nUsing modern biotechnology and computational approaches to contribute to innovative solutions for biomedical research."
-  },
-  {
-    "objectID": "styles.html",
-    "href": "styles.html",
-    "title": "my research websited",
-    "section": "",
-    "text": "/* ========================================= PROFESSIONAL RESEARCH WEBSITE ========================================= */\n:root { –research-blue: #12355b; –research-light: #eef5fb; –research-accent: #1b7f8c; –research-dark: #17202a; –research-text: #3f4b56; }\n/* ———- General ———- */\nbody { font-family: “Segoe UI”, Arial, sans-serif; color: var(–research-text); line-height: 1.7; background: #ffffff; }\nh1, h2, h3 { color: var(–research-dark); font-weight: 700; }\n/* ———- Navigation ———- */\n.navbar { background: #ffffff !important; border-bottom: 1px solid #e6e9ed; padding: 12px 30px; }\n.navbar-brand { color: var(–research-blue) !important; font-weight: 700; font-size: 1.25rem; }\n.navbar-nav .nav-link { color: var(–research-dark) !important; font-weight: 500; margin-left: 12px; }\n.navbar-nav .nav-link:hover { color: var(–research-accent) !important; }\n/* ———- Hero Section ———- */\n.hero { background: linear-gradient( 135deg, #eef5fb 0%, #ffffff 55%, #e7f4f3 100% );\npadding: 100px 70px; margin-bottom: 70px; border-radius: 0 0 35px 35px; }\n.hero h1 { font-size: 4rem; color: var(–research-blue); margin-bottom: 15px; }\n.hero h3 { font-size: 1.35rem; color: var(–research-accent); font-weight: 500; margin-bottom: 25px; }\n.hero p { max-width: 800px; font-size: 1.15rem; }\n/* ———- Buttons ———- */\n.btn-primary, .btn-secondary { display: inline-block; padding: 12px 24px; margin: 15px 8px 0 0; border-radius: 8px; text-decoration: none !important; font-weight: 600; transition: 0.25s ease; }\n.btn-primary { background: var(–research-blue); color: white !important; }\n.btn-primary:hover { background: var(–research-accent); transform: translateY(-2px); }\n.btn-secondary { border: 2px solid var(–research-blue); color: var(–research-blue) !important; background: white; }\n.btn-secondary:hover { background: var(–research-blue); color: white !important; }\n/* ———- Section Headings ———- */\nmain h2 { margin-top: 60px; margin-bottom: 30px; padding-bottom: 10px; border-bottom: 3px solid var(–research-accent); }\n/* ———- Research Cards ———- */\n.research-card { background: #ffffff; border: 1px solid #e2e7eb; border-radius: 15px; padding: 25px; margin: 20px 0; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06); transition: 0.25s ease; }\n.research-card:hover { transform: translateY(-5px); box-shadow: 0 12px 28px rgba(0, 0, 0, 0.10); }\n.research-card h3 { color: var(–research-blue); margin-top: 0; }\n/* ———- Research Grid ———- */\n.g-col-lg-3 { padding: 10px; }\n.g-col-lg-3 &gt; div { height: 100%; background: var(–research-light); border-radius: 15px; padding: 25px; border: 1px solid #dce8f0; }\n.g-col-lg-3 h3 { color: var(–research-blue); margin-top: 0; }\n/* ———- Tables ———- */\ntable { width: 100%; border-collapse: collapse; margin: 25px 0; }\nth { background: var(–research-blue); color: white; padding: 14px; }\ntd { padding: 13px; border-bottom: 1px solid #e3e6e8; }\ntr:hover { background: #f5f9fb; }\n/* ———- Quote / Vision ———- */\nblockquote { background: var(–research-light); border-left: 5px solid var(–research-accent); padding: 25px; border-radius: 8px; font-size: 1.15rem; color: var(–research-blue); }\n/* ———- Footer ———- */\n.footer-note { text-align: center; margin-top: 80px; padding: 30px; border-top: 1px solid #e1e5e8; color: #71808c; }\n/* ———- Mobile ———- */\n@media (max-width: 768px) {\n.hero { padding: 60px 25px; }\n.hero h1 { font-size: 2.7rem; }\n.hero h3 { font-size: 1.1rem; }\n.navbar { padding: 10px 15px; }\nmain { padding-left: 15px; padding-right: 15px; } }"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "clear/about.html",
-    "href": "clear/about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   }
 ]
